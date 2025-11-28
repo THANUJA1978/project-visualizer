@@ -2,8 +2,6 @@
 
 
 
-
-
 import { useState, useEffect } from "react";
 import KanbanBoard from "../components/KanbanBoard";
 import GanttChart from "../components/GanttChart";
