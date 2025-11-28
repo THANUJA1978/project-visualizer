@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design UI",
+      "status": "todo",
+      "start": "2025-01-01",
+      "end": "2025-01-05",
+      "dependencies": []
+    },
+    {
+      "id": "2",
+      "title": "Build Backend APIs",
+      "status": "in-progress",
+      "start": "2025-01-06",
+      "end": "2025-01-12",
+      "dependencies": ["1"]
+    },
+    {
+      "id": "3",
+      "title": "Integrate Frontend & Backend",
+      "status": "todo",
+      "start": "2025-01-13",
+      "end": "2025-01-18",
+      "dependencies": ["1", "2"]
+    },
+    {
+      "id": "4",
+      "title": "Testing & Bug Fixing",
+      "status": "done",
+      "start": "2025-01-19",
+      "end": "2025-01-22",
+      "dependencies": ["3"]
+    }
+  ]
+}
